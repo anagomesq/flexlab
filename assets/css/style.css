@@ -61,6 +61,7 @@ body {
     align-items: center;
     gap: 16px;
     flex-wrap: wrap;
+    align-self: flex-start;
 }
 
 .item {
@@ -77,3 +78,6 @@ body {
 
 }
 
+.acoes {
+    display: flex;
+}
