@@ -49,12 +49,17 @@ body {
 }
 
 .container {
+    flex-direction: row;
     margin-top: 24px;
     min-height: 300px;
     padding: 16px;
     background-color: #eef2ff;
     border: 2px dashed #93c5fd;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .item {
